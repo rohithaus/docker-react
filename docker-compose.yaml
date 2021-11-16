@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    stdin_open: true 
+    image: 95c1d4720332
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app  
